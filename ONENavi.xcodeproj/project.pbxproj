@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B18A6F2A005322A5318C19CF /* libPods-ONENavi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D235F190477604793231464 /* libPods-ONENavi.a */; };
+		EE53B50D1D87918000E163AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE53B50C1D87918000E163AF /* main.m */; };
+		EE53B5101D87918000E163AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE53B50F1D87918000E163AF /* AppDelegate.m */; };
+		EE53B5131D87918000E163AF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE53B5121D87918000E163AF /* ViewController.m */; };
+		EE53B5161D87918000E163AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE53B5141D87918000E163AF /* Main.storyboard */; };
+		EE53B5181D87918000E163AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE53B5171D87918000E163AF /* Assets.xcassets */; };
+		EE53B51B1D87918000E163AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE53B5191D87918000E163AF /* LaunchScreen.storyboard */; };
+		EE53B52F1D8791C300E163AF /* NSURL+ONERouteHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = EE53B5241D8791C300E163AF /* NSURL+ONERouteHandler.m */; };
+		EE53B5301D8791C300E163AF /* ONERoute.m in Sources */ = {isa = PBXBuildFile; fileRef = EE53B5261D8791C300E163AF /* ONERoute.m */; };
+		EE53B5311D8791C300E163AF /* ONETransition.m in Sources */ = {isa = PBXBuildFile; fileRef = EE53B5281D8791C300E163AF /* ONETransition.m */; };
+		EE53B5321D8791C300E163AF /* RouteInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = EE53B52A1D8791C300E163AF /* RouteInfo.m */; };
+		EE53B5331D8791C300E163AF /* RouteResult.m in Sources */ = {isa = PBXBuildFile; fileRef = EE53B52C1D8791C300E163AF /* RouteResult.m */; };
+		EE53B5341D8791C300E163AF /* RouteWhiteListItem.m in Sources */ = {isa = PBXBuildFile; fileRef = EE53B52E1D8791C300E163AF /* RouteWhiteListItem.m */; };
+		EE53B5381D8796F900E163AF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE53B5371D8796F900E163AF /* UIKit.framework */; };
+		EE53B53B1D87975000E163AF /* ONERouteWhiteList.plist in Resources */ = {isa = PBXBuildFile; fileRef = EE53B53A1D87975000E163AF /* ONERouteWhiteList.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0D235F190477604793231464 /* libPods-ONENavi.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ONENavi.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D7F04695A03E9E4F5773554 /* Pods-ONENavi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ONENavi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ONENavi/Pods-ONENavi.debug.xcconfig"; sourceTree = "<group>"; };
+		65E190EBC14123094C6E7EAD /* Pods-ONENavi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ONENavi.release.xcconfig"; path = "Pods/Target Support Files/Pods-ONENavi/Pods-ONENavi.release.xcconfig"; sourceTree = "<group>"; };
+		EE47F7051EAF249300D8F807 /* ONERouteLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ONERouteLog.h; sourceTree = "<group>"; };
+		EE4EE0A81DE80EBA00BED0BA /* ONENavi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ONENavi.h; sourceTree = "<group>"; };
+		EE53B5081D87918000E163AF /* ONENavi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ONENavi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE53B50C1D87918000E163AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EE53B50E1D87918000E163AF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EE53B50F1D87918000E163AF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EE53B5111D87918000E163AF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EE53B5121D87918000E163AF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EE53B5151D87918000E163AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE53B5171D87918000E163AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE53B51A1D87918000E163AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE53B51C1D87918000E163AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE53B5231D8791C300E163AF /* NSURL+ONERouteHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+ONERouteHandler.h"; sourceTree = "<group>"; };
+		EE53B5241D8791C300E163AF /* NSURL+ONERouteHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+ONERouteHandler.m"; sourceTree = "<group>"; };
+		EE53B5251D8791C300E163AF /* ONERoute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ONERoute.h; sourceTree = "<group>"; };
+		EE53B5261D8791C300E163AF /* ONERoute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ONERoute.m; sourceTree = "<group>"; };
+		EE53B5271D8791C300E163AF /* ONETransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ONETransition.h; sourceTree = "<group>"; };
+		EE53B5281D8791C300E163AF /* ONETransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ONETransition.m; sourceTree = "<group>"; };
+		EE53B5291D8791C300E163AF /* RouteInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RouteInfo.h; sourceTree = "<group>"; };
+		EE53B52A1D8791C300E163AF /* RouteInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RouteInfo.m; sourceTree = "<group>"; };
+		EE53B52B1D8791C300E163AF /* RouteResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RouteResult.h; sourceTree = "<group>"; };
+		EE53B52C1D8791C300E163AF /* RouteResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RouteResult.m; sourceTree = "<group>"; };
+		EE53B52D1D8791C300E163AF /* RouteWhiteListItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RouteWhiteListItem.h; sourceTree = "<group>"; };
+		EE53B52E1D8791C300E163AF /* RouteWhiteListItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RouteWhiteListItem.m; sourceTree = "<group>"; };
+		EE53B5371D8796F900E163AF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EE53B53A1D87975000E163AF /* ONERouteWhiteList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ONERouteWhiteList.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE53B5051D87918000E163AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE53B5381D8796F900E163AF /* UIKit.framework in Frameworks */,
+				B18A6F2A005322A5318C19CF /* libPods-ONENavi.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79B1DCB9D4F063B9E201BBE3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5D7F04695A03E9E4F5773554 /* Pods-ONENavi.debug.xcconfig */,
+				65E190EBC14123094C6E7EAD /* Pods-ONENavi.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		906AA59B5C63D1F6336F8668 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE53B5371D8796F900E163AF /* UIKit.framework */,
+				0D235F190477604793231464 /* libPods-ONENavi.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE53B4FF1D87918000E163AF = {
+			isa = PBXGroup;
+			children = (
+				EE53B50A1D87918000E163AF /* ONENavi */,
+				EE53B5091D87918000E163AF /* Products */,
+				79B1DCB9D4F063B9E201BBE3 /* Pods */,
+				906AA59B5C63D1F6336F8668 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EE53B5091D87918000E163AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE53B5081D87918000E163AF /* ONENavi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE53B50A1D87918000E163AF /* ONENavi */ = {
+			isa = PBXGroup;
+			children = (
+				EE53B5221D8791B500E163AF /* Classes */,
+				EE53B5391D87975000E163AF /* Resources */,
+				EE53B50E1D87918000E163AF /* AppDelegate.h */,
+				EE53B50F1D87918000E163AF /* AppDelegate.m */,
+				EE53B5111D87918000E163AF /* ViewController.h */,
+				EE53B5121D87918000E163AF /* ViewController.m */,
+				EE53B5141D87918000E163AF /* Main.storyboard */,
+				EE53B5171D87918000E163AF /* Assets.xcassets */,
+				EE53B5191D87918000E163AF /* LaunchScreen.storyboard */,
+				EE53B51C1D87918000E163AF /* Info.plist */,
+				EE53B50B1D87918000E163AF /* Supporting Files */,
+			);
+			path = ONENavi;
+			sourceTree = "<group>";
+		};
+		EE53B50B1D87918000E163AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE53B50C1D87918000E163AF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EE53B5221D8791B500E163AF /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EE4EE0A81DE80EBA00BED0BA /* ONENavi.h */,
+				EE47F7051EAF249300D8F807 /* ONERouteLog.h */,
+				EE53B5231D8791C300E163AF /* NSURL+ONERouteHandler.h */,
+				EE53B5241D8791C300E163AF /* NSURL+ONERouteHandler.m */,
+				EE53B5251D8791C300E163AF /* ONERoute.h */,
+				EE53B5261D8791C300E163AF /* ONERoute.m */,
+				EE53B5271D8791C300E163AF /* ONETransition.h */,
+				EE53B5281D8791C300E163AF /* ONETransition.m */,
+				EE53B5291D8791C300E163AF /* RouteInfo.h */,
+				EE53B52A1D8791C300E163AF /* RouteInfo.m */,
+				EE53B52B1D8791C300E163AF /* RouteResult.h */,
+				EE53B52C1D8791C300E163AF /* RouteResult.m */,
+				EE53B52D1D8791C300E163AF /* RouteWhiteListItem.h */,
+				EE53B52E1D8791C300E163AF /* RouteWhiteListItem.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		EE53B5391D87975000E163AF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EE53B53A1D87975000E163AF /* ONERouteWhiteList.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE53B5071D87918000E163AF /* ONENavi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE53B51F1D87918000E163AF /* Build configuration list for PBXNativeTarget "ONENavi" */;
+			buildPhases = (
+				879920A6DCADF7B1C80E445E /* [CP] Check Pods Manifest.lock */,
+				EE53B5041D87918000E163AF /* Sources */,
+				EE53B5051D87918000E163AF /* Frameworks */,
+				EE53B5061D87918000E163AF /* Resources */,
+				709FB83620469D99EB328E23 /* [CP] Embed Pods Frameworks */,
+				1AA0A623E6C637DEF641F681 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ONENavi;
+			productName = ONENavi;
+			productReference = EE53B5081D87918000E163AF /* ONENavi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE53B5001D87918000E163AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Hangzhou TaiXuan Network Technology Co., Ltd.";
+				TargetAttributes = {
+					EE53B5071D87918000E163AF = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 7PDZD8W2SC;
+					};
+				};
+			};
+			buildConfigurationList = EE53B5031D87918000E163AF /* Build configuration list for PBXProject "ONENavi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE53B4FF1D87918000E163AF;
+			productRefGroup = EE53B5091D87918000E163AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE53B5071D87918000E163AF /* ONENavi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE53B5061D87918000E163AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE53B51B1D87918000E163AF /* LaunchScreen.storyboard in Resources */,
+				EE53B5181D87918000E163AF /* Assets.xcassets in Resources */,
+				EE53B5161D87918000E163AF /* Main.storyboard in Resources */,
+				EE53B53B1D87975000E163AF /* ONERouteWhiteList.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1AA0A623E6C637DEF641F681 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ONENavi/Pods-ONENavi-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		709FB83620469D99EB328E23 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ONENavi/Pods-ONENavi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		879920A6DCADF7B1C80E445E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE53B5041D87918000E163AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE53B52F1D8791C300E163AF /* NSURL+ONERouteHandler.m in Sources */,
+				EE53B5131D87918000E163AF /* ViewController.m in Sources */,
+				EE53B5301D8791C300E163AF /* ONERoute.m in Sources */,
+				EE53B5101D87918000E163AF /* AppDelegate.m in Sources */,
+				EE53B50D1D87918000E163AF /* main.m in Sources */,
+				EE53B5341D8791C300E163AF /* RouteWhiteListItem.m in Sources */,
+				EE53B5321D8791C300E163AF /* RouteInfo.m in Sources */,
+				EE53B5331D8791C300E163AF /* RouteResult.m in Sources */,
+				EE53B5311D8791C300E163AF /* ONETransition.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EE53B5141D87918000E163AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE53B5151D87918000E163AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE53B5191D87918000E163AF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE53B51A1D87918000E163AF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE53B51D1D87918000E163AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EE53B51E1D87918000E163AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE53B5201D87918000E163AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D7F04695A03E9E4F5773554 /* Pods-ONENavi.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7PDZD8W2SC;
+				INFOPLIST_FILE = ONENavi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.happytai.ONENavi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EE53B5211D87918000E163AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65E190EBC14123094C6E7EAD /* Pods-ONENavi.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7PDZD8W2SC;
+				INFOPLIST_FILE = ONENavi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.happytai.ONENavi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE53B5031D87918000E163AF /* Build configuration list for PBXProject "ONENavi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE53B51D1D87918000E163AF /* Debug */,
+				EE53B51E1D87918000E163AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE53B51F1D87918000E163AF /* Build configuration list for PBXNativeTarget "ONENavi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE53B5201D87918000E163AF /* Debug */,
+				EE53B5211D87918000E163AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE53B5001D87918000E163AF /* Project object */;
+}
